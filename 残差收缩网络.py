@@ -100,3 +100,4 @@ def build_drsn(input_shape=(224, 224, 3), num_classes=23, pretrained_weights=Non
 model = build_drsn(input_shape=(224, 224, 3), num_classes=23)
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 model.summary()
+test
